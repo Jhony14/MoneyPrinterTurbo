@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+**/secrets.*
+**/credentials.*
+**/credentials.json
+**/service-account*.json
+config.toml
+**/*.toml
+
+# Keys/certs
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/id_rsa
+**/id_ed25519
+
+# Local/private config
+**/.npmrc
+**/.pypirc
+**/.netrc
+**/firebase.json
+**/google-services.json
+
+# Build/vendor noise
+node_modules/
+dist/
+build/
+coverage/
